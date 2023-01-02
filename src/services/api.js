@@ -5,7 +5,7 @@ import Axios from 'axios'
 // export const BASE_URL =
 //   process.env.NODE_ENV === 'blog_development' ? LOCAL_URL : HEROKU_URL
 
-const BASE_URL = 'https://finance-tracker-be.herokuapp.com/'
+const BASE_URL = 'https://finance-tracker-be.herokuapp.com'
 
 const Client = Axios.create({ baseURL: BASE_URL })
 
